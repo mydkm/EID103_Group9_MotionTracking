@@ -42,8 +42,8 @@
 
 5. Blue
 
-    Lower Limit: np.array([90, 70, 70])
+    Lower Limit: np.array([98, 50, 50])
 
-    Upper Limit: np.array([130, 255, 255])
+    Upper Limit: np.array([139, 255, 255])
 
         Notes: Covers cyans through royal blues. Adjust Saturation/Value lower bounds based on the specific blue shade and lighting.
