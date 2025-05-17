@@ -74,7 +74,7 @@ graph_width = 450  # Pixel width (adjust as needed)
 # Create black canvas [height, width, 3 channels], unsigned 8-bit integer
 graph_canvas = np.zeros((graph_height, graph_width, 3), dtype=np.uint8)
 # Y-axis scaling: map velocity range to pixel height
-max_expected_velocity = np.pi * 2.5 # Example: +/- 2.5*pi rad/s range
+max_expected_velocity = np.pi * 3.5 # Example: +/- 2.5*pi rad/s range
 # Pixels per rad/s
 y_scale = graph_height / (2 * max_expected_velocity) if max_expected_velocity > 0 else 1 # Corrected scale
 # Y pixel coordinate corresponding to 0 velocity (middle)
